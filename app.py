@@ -1,9 +1,4 @@
-import os
-import sys
 
-ROOT = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, ROOT)
-sys.path.insert(0, os.path.join(ROOT, "database"))
 import json
 import pandas as pd
 import streamlit as st
